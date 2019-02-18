@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
-public class MovementPop : SerializedMonoBehaviour {
+public class MovementPop : MonoBehaviour {
 
 	public MovementBrain[] population;
 	//public float[][] populationNums;
